@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body style="height: 100%; width: 100%;">
+		<div style='position: absolute; z-index: 1; left: 0; top: 0;'>
+			<div>
+				<input id='in' type='text' placeholder='node name'/>
+				<button onclick="addNode()">add node</button>
+				<button onclick="deleteNode()">delete node</button>
+				<div id='error'></div>
+			</div>
+			<div>
+				<input id='connect_1' type='text' placeholder='1st node name'/>
+				<input id='connect_2' type='text' placeholder='2nd node name'/>
+				<input id='weight' type'number' placeholder='weight'/>
+				<button onclick="connectNodes()">connect</button>
+				<div id='error_2'></div>
+			</div>
+			<div>
+				<input id='dijkstra' type='text' placeholder='starting node name'/>
+				<button onclick='dijkstra()'>dijkstra</button>
+				<div id='error_3'></div>
+			</div>
+			<div style='display: block;'>
+				<button onclick="clearEverything()">clear everything</button>
+			</div>
+			<textarea id='dijkstra-answer' readonly></textarea>
+		</div>
+		<canvas id='canvas' style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+	</body>
+	<script src="index.js"></script>
+</html>
