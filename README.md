@@ -4,7 +4,7 @@ This is just a basic implementation of dijkstra's algorithm.
 I took a really long time since I wasn't aware of how I was creating objects and 
 so I was confused on if changing one object's member would change it in another location that I had put it.
 A example of a problem that came up was that I was comparing the *connection.dist* value thinking that I had changed
-it but it was always going to be *Infinity* as a created copies of a node using *new*.
+it but it was always going to be *Infinity* as I created copies of a node using *new*.
 
 # Basic Usage
 Type in a Node's name in the "node name" input box.
