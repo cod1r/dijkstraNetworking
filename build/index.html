@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<style>
+		body {
+			height: 100vh; 
+			width: 100vw; 
+			box-sizing: border-box; 
+			padding: 0; 
+			margin: 0; 
+			overflow: hidden;
+		}
+		#panel {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		#panel > button {
+			padding: 10px;
+			border-style: none;
+			margin: 5px;
+			background-color: black;
+			color: white;
+			cursor: pointer;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 20px;
+		}
+	</style>
+	<body>
+		<div id="panel">
+			<button id="add">Add</button>
+			<button id="delete">Delete</button>
+			<button id="connect">Connect</button>
+			<button id="move"></button>
+		</div>
+		<canvas id='canvas'></canvas>
+	</body>
+	<script src="index.js"></script>
+</html>

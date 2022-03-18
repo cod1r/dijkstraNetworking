@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ES6",
+    "noImplicitAny": true,
+    "strict": false,
+    "lib": [
+      "ES6",
+      "DOM"
+    ]
+  },
+  "files": [
+    "src/index.ts"
+  ]
+}
